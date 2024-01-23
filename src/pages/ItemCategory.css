@@ -1,0 +1,39 @@
+.item-category {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-category h2 {
+  text-align: center;
+  padding: 1rem 0;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 3px;
+}
+
+.item-category hr {
+  border: none;
+  width: 20%;
+  height: 3px;
+  border-radius: 10px;
+  background: #e72c2c;
+  margin-top: 10px;
+}
+
+.item-category ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  padding-inline-start: 0;
+  margin: 2rem 0;
+}
+
+.item-category ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

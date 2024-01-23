@@ -1,0 +1,57 @@
+.order {
+  margin: 4rem 2rem;
+
+  border: 1px solid #000000;
+
+  @media screen and (min-width: 1000px) {
+    margin-top: 7rem;
+  }
+}
+
+.order form {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem 4rem;
+}
+
+.order h2 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  width: 100%;
+
+  font-family: "Monserat", sans-serif;
+}
+
+.order label {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 0.3rem;
+}
+
+.order input {
+  width: 100%;
+  margin-bottom: 0.4rem;
+  margin-top: 0.2rem;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid #bdbdbd;
+}
+
+.order button {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  width: 8rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.order button:hover {
+  background-color: #cd0000;
+}
+
+.order button:active {
+  transform: scale(0.98);
+}

@@ -1,0 +1,126 @@
+.cart {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cart-field {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 600px) {
+    margin: 0 3rem;
+  }
+
+  @media screen and (min-width: 900px) {
+    margin: 0 8rem;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin: 0 12rem;
+  }
+}
+
+.cart-items {
+  max-height: 23rem;
+  overflow-x: scroll;
+  border-bottom: 1px solid #cacaca;
+  padding-bottom: 1rem;
+}
+
+.cart-items::-webkit-scrollbar {
+  display: none;
+}
+
+.cart-button {
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  color: #fff;
+  background-color: red;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  width: 10rem;
+  align-self: center;
+  transition: all 0.3s;
+}
+
+.cart-button:hover {
+  background-color: #cd0000;
+}
+
+.cart-button:active {
+  transform: scale(0.98);
+}
+
+.cart-empty {
+  align-self: center;
+  margin: 3rem 0;
+  color: #939393;
+}
+
+.cart-total {
+  margin: 2rem;
+  margin-bottom: 0;
+
+  @media screen and (min-width: 1000px) {
+    margin-top: -5rem;
+  }
+}
+
+.cart-total h3 {
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.cart-total p {
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.cart-total p:not(:last-child) {
+  border-bottom: 1px solid #b6b6b6;
+}
+
+.cart-shipping-detail {
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 1rem;
+}
+
+.cart-order {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 600px) {
+    margin: auto 3rem;
+  }
+
+  @media screen and (min-width: 800px) {
+    margin: auto 4rem;
+  }
+
+  @media screen and (min-width: 1000px) {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.cart-scroll {
+  align-self: center;
+  border: 1px solid #9b9b9b;
+  background-color: #fff;
+  color: #9b9b9b;
+
+  padding: 1rem;
+  width: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+}

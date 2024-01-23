@@ -1,0 +1,111 @@
+.single-item {
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (min-width: 800px) {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  @media screen and (min-width: 1000px) {
+    padding: 1rem 10rem;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 1rem 15rem;
+  }
+}
+
+.single-item img {
+  width: 25rem;
+  margin-bottom: 1rem;
+
+  @media screen and (min-width: 800px) {
+    width: 20rem;
+  }
+}
+
+.single-item h2 {
+  margin-bottom: 2rem;
+}
+
+.single-item-flow {
+  font-size: 0.8rem;
+  text-transform: lowercase;
+  margin-bottom: 1rem;
+}
+
+.single-item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.single-item-description {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.single-item-prices {
+  display: flex;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  gap: 1rem;
+  letter-spacing: 1px;
+  align-items: center;
+}
+
+.single-item-old {
+  text-decoration: line-through;
+  color: #6a6a6a;
+}
+
+.single-item-new {
+  font-size: 1.2rem;
+}
+.single-item select {
+  width: 10rem;
+  padding: 0.4rem;
+  border: 1px solid #c3c3c3;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.single-item button {
+  width: 9rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  background-color: red;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 1.5rem;
+}
+
+.single-item button:hover {
+  background-color: #cd0000;
+}
+
+.single-item button:active {
+  transform: scale(0.98);
+}
+
+.single-item-about {
+  /*border: 1px solid #a5a5a5;*/
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  color: #767676;
+  text-transform: capitalize;
+}
+
+.single-item-about strong {
+  margin-right: 0.3rem;
+  color: #000;
+}

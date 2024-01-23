@@ -1,0 +1,15 @@
+.loginregister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background-image: url("../components/assets/backgroundLogin.avif");
+  background-position: center;
+  background-size: cover;
+}
+
+.welcome {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+}

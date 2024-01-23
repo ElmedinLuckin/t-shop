@@ -1,0 +1,67 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  width: 20rem;
+  border: none;
+  color: #fff;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 100%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+}
+
+.login label {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.login input {
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  border: 1px solid #b9b9b9;
+}
+
+.login button {
+  padding: 1rem;
+  background-color: red;
+  border: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.login button:hover {
+  background-color: #cd0000;
+}
+
+.login button:active {
+  transform: scale(0.98);
+}
+
+.login p {
+  margin-top: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login h2 {
+  margin-bottom: 2rem;
+  letter-spacing: 6px;
+  font-weight: 300;
+}
+
+.login p strong {
+  cursor: pointer;
+}
+
+.validation {
+  font-size: 0.7rem;
+  color: red;
+}

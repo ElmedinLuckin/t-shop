@@ -1,0 +1,112 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  align-items: center;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 2rem;
+  font-family: "Montserrat", sans-serif;
+
+  @media screen and (min-width: 800px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+  }
+}
+
+.navbar-down {
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  padding-inline-start: 0;
+}
+
+.navbar-logo p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.navbar-logo img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.navbar-menu ul {
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+  font-size: 0.8rem;
+  padding-inline-start: 0px;
+}
+
+.navbar-menu ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+}
+
+.navbar-menu hr {
+  border: none;
+  width: 80%;
+  height: 2px;
+  border-radius: 10px;
+  background: #e72c2c;
+}
+
+.navbar-options {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-options img {
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+.navbar-options button {
+  outline: none;
+  border: 1px solid #868686;
+  background-color: #fff;
+  color: #868686;
+  padding: 0.4rem 1.6rem;
+
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-options button:active {
+  background-color: #e1e1e1;
+  border: 1px solid #e1e1e1;
+  color: #fff;
+}
+
+.navbar-count {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -25px;
+  margin-left: -35px;
+  border-radius: 11px;
+  background-color: red;
+  color: #fff;
+}
