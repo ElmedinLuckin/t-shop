@@ -4,7 +4,7 @@ import heroImage from "../assets/heroimg.avif";
 
 const Banner = () => {
   const scrollToItems = () => {
-    window.scrollTo({ top: 650, behavior: "smooth" });
+    window.scrollTo({ top: 800, behavior: "smooth" });
   };
   return (
     <div className="banner">
