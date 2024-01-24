@@ -4,10 +4,6 @@
   flex-direction: column;
   align-items: center;
 
-  @media screen and (min-width: 300px) {
-    padding: 0 1rem;
-  }
-
   @media screen and (min-width: 800px) {
     display: flex;
     flex-direction: row;
@@ -24,20 +20,20 @@
 }
 
 .single-item-field {
-  padding: 3rem;
 }
 
 .single-item img {
-  width: 25rem;
+  width: 20rem;
   margin-bottom: 1rem;
 
   @media screen and (min-width: 800px) {
-    width: 20rem;
+    width: 18rem;
   }
 }
 
 .single-item h2 {
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 .single-item-flow {
@@ -55,7 +51,7 @@
 .single-item-description {
   margin-bottom: 1rem;
   font-weight: 700;
-  width: 25rem;
+  width: 20rem;
 }
 
 .single-item-prices {
@@ -110,8 +106,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 25rem;
-  gap: 0.4rem;
+  width: 20rem;
+
   color: #767676;
   text-transform: capitalize;
 }
