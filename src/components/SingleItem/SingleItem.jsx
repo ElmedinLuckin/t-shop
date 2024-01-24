@@ -16,6 +16,7 @@ const SingleItem = ({ item }) => {
 
   const addItemToCart = (cartItem) => {
     cartCtx.addItem(cartItem);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
