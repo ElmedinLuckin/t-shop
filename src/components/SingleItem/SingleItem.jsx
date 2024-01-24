@@ -20,7 +20,7 @@ const SingleItem = ({ item }) => {
 
   return (
     <div className="single-item">
-      <div>
+      <div className="single-item-field">
         <h2>{item.name}</h2>
         <p className="single-item-flow">{`${item.category} > ${item.name}`}</p>
         <img src={item.image} alt="" />

@@ -6,6 +6,7 @@ const Banner = () => {
   const scrollToItems = () => {
     window.scrollTo({ top: 800, behavior: "smooth" });
   };
+
   return (
     <div className="banner">
       <div className="banner-left">
